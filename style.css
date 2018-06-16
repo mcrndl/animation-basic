@@ -1,0 +1,61 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+img {
+  border: 0;
+  -webkit-transform: rotateZ( 0.1deg);
+  -ms-transform: rotateZ( 0.1deg);
+  -o-transform: rotateZ( 0.1deg);
+  transform: rotateZ( 0.1deg);
+}
+
+/* Container */
+#wrapper{
+  width: 728px;
+  height: 90px;
+  background:#000; position: absolute;
+  overflow: hidden;
+  border:1px solid #000;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.button{
+  position: absolute;
+  top: -71;
+  z-index: 1;
+
+}
+
+.piece{
+  position: absolute;
+  top: 0;
+}
+
+.text1{
+  position: absolute;
+  top: 0;
+}
+
+.text2{
+  position: absolute;
+  top: 0;
+
+}
+
+.text3{
+  position: absolute;
+  top: 0;
+}
+
+.text4{
+  position: absolute;
+  top: 0;
+}
